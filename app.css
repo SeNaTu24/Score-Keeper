@@ -1,0 +1,83 @@
+html,
+body {
+   padding: 0;
+   margin: 0;
+   text-align: center;
+   background-color: #0000ff;
+   color: aliceblue;
+}
+
+h2 {
+   display: flex;
+   margin: 0 5px;
+}
+
+h1 {
+   font-size: 50px;
+}
+
+img {
+   width: 50%;
+   margin: -90px auto;
+}
+
+div {
+   width: 100%;
+   margin: 10px auto;
+}
+
+button {
+   padding: 20px;
+   border-bottom-left-radius: 10px;
+   border-bottom-right-radius: 10px;
+   border-top-left-radius: 10px;
+   border-top-right-radius: 10px;
+   background-color: rgb(127, 202, 255);
+}
+
+button:active {
+   background-color: red;
+   cursor: pointer;
+   box-shadow: 0px 0px 10px 2px rgb(172, 58, 58);
+}
+
+select {
+   padding: 20px;
+   border-bottom-left-radius: 10px;
+   border-bottom-right-radius: 10px;
+   border-top-left-radius: 10px;
+   border-top-right-radius: 10px;
+   background-color: rgb(127, 202, 255);
+}
+
+@media (min-width:350px) and (max-width:680px) {
+   body {
+      background-color: blue;
+      text-align: center;
+      font-size: 10px;
+      color: #ffff;
+   }
+
+   h2 {
+      font-size: 50px;
+
+   }
+
+   section {
+      display: block;
+   }
+
+   img {
+      margin: 5px auto;
+      width: 100%;
+   }
+
+   button {
+      display: inline-block;
+      padding: 10px;
+   }
+
+   select {
+      padding: 10px;
+   }
+}
